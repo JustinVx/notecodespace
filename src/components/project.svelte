@@ -1,6 +1,8 @@
 <script>
 	export let title;
 	export let date;
+	export let time;
+	export let costs;
 	let dateDisplay = new Date(Date.parse(date)).toLocaleDateString('en-UK', {
 		year: 'numeric',
 		month: 'long',
@@ -12,10 +14,10 @@
 	<title>{title} - NoteCodeSpace</title>
 </svelte:head>
 
-<div class="prose dark:prose-dark">
+<div class="prose dark:prose-dark lg:prose-lg xl:prose-xl">
 	<div class="py-8 sm:py-10">
-		<div class="leading-relaxed text-4xl mb-4 font-medium">{title}</div>
-		<div class="text-sm">{dateDisplay}</div>
+		<h1 class="leading-relaxed">{title}</h1>
+		<div><b>Time spent: </b>{time} - <b>Costs: </b>{costs}</div>
 	</div>
 	<slot />
 </div>
