@@ -20,7 +20,7 @@ The first thing I decided to do was to come up with a name. To do this, I went t
 I grabbed my list of project ideas for inspiration. When going through the list I noticed a lot of them are related to note taking and my most liked idea is a [Tool for Thought](https://www.forthought.tools) idea. 
 After some searching and consideration I came up with ***notecode.space***. For a while I was contemplating ***notecode.bingo***, but the domain name was 20 times as expensive.
 
-![antagonist.nl with domain search for 'notecode'](src/img/notecodespace-antagonist.png)
+![antagonist.nl with domain search for 'notecode'](img/notecodespace-antagonist.png)
 
 Buying notecode.space cost me €3,63 for the first year.
 
