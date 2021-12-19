@@ -2,6 +2,7 @@ module.exports = {
   mode: 'jit',
   purge: ['./src/**/*.svelte'],
   plugins: [
+    require('@tailwindcss/forms'),
     require('@tailwindcss/typography')
   ],
   theme: {
@@ -34,7 +35,7 @@ module.exports = {
                 color: theme("colors.gray.100"),
                 borderBottomColor: theme("colors.gray.700"),
               },
-              "tbody tr": { borderBottomColor: theme("colors.gray.800") },
+              "tbody tr": { borderBottomColor: theme("colors.gray.700") },
             },
           },
         };
