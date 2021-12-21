@@ -21,7 +21,8 @@
 
 <div class="prose dark:prose-dark lg:prose-lg xl:prose-xl h-screen">
   <div>
-    <p class="font-medium">Welcome to <b>notecode.page</b>. It's the website where I keep updates of the small side-projects that I work on and have worked on. Here they are:</p>
+    <p class="font-medium">Welcome to <b class="text-black dark:text-white">notecode.page</b>. It's this website where I keep updates on the small side-projects that I work on and that I have worked on. </p>
+		<p>Here they are:</p>
     <div>
       {#each posts as i}
         <div><a href="/{i.slug}">{i.title}</a></div>
