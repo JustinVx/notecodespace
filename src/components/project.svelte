@@ -1,4 +1,6 @@
 <script>
+	import SignUp from "../components/signup_form.svelte"
+
 	export let title;
 	export let date;
 	export let time;
@@ -20,4 +22,5 @@
 		<div><b>Time spent: </b>{time} - <b>Costs: </b>{costs}</div>
 	</div>
 	<slot />
+	<SignUp />
 </div>

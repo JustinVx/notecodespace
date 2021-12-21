@@ -6,7 +6,7 @@
 <div class="flex flex-col bg-teal-50 dark:bg-gray-800">
   <header>
     <div class="flex flex-row justify-between max-w-5xl mx-auto lg:mt-8 lg:mb-4">
-      <h1 class="ml-6 mr-8 my-8 text-xl font-medium dark:text-gray-300"><a href="/" class="hover:text-teal-600">notecode.space</a></h1>
+      <h1 class="ml-6 mr-8 my-8 text-xl font-medium dark:text-gray-200"><a href="/" class="hover:text-teal-600 dark:hover:text-gray-400">notecode.space</a></h1>
       <div class="mx-8 my-8"><Emojis /></div> 
     </div>
   </header>
